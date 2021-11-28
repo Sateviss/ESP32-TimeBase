@@ -1,0 +1,196 @@
+{
+	"state": {
+		"classes": [
+			{
+				"name": "weather_record",
+				"title": null,
+				"fields": [
+					{
+						"name": "am2320_temp",
+						"title": "",
+						"type": {
+							"encoding": "DECIMAL",
+							"nullable": false,
+							"name": "FLOAT",
+							"types": null,
+							"elementType": null
+						},
+						"value": null,
+						"static": false,
+						"hide": false,
+						"_props": {
+							"_typeName": "weather_record",
+							"_uuid": "weather_record:am2320_temp",
+							"_isSelected": true
+						}
+					},
+					{
+						"name": "am2320_humidity",
+						"title": "",
+						"type": {
+							"encoding": "DECIMAL",
+							"nullable": false,
+							"name": "FLOAT",
+							"types": null,
+							"elementType": null
+						},
+						"value": null,
+						"static": false,
+						"hide": false,
+						"_props": {
+							"_typeName": "weather_record",
+							"_uuid": "weather_record:am2320_humidity",
+							"_isSelected": false
+						}
+					},
+					{
+						"name": "bmp180_temp",
+						"title": "",
+						"type": {
+							"encoding": "DECIMAL",
+							"nullable": false,
+							"name": "FLOAT",
+							"types": null,
+							"elementType": null
+						},
+						"value": null,
+						"static": false,
+						"hide": false,
+						"_props": {
+							"_typeName": "weather_record",
+							"_uuid": "weather_record:bmp180_temp",
+							"_isSelected": false
+						}
+					},
+					{
+						"name": "bmp180_pressure",
+						"title": "",
+						"type": {
+							"encoding": "DECIMAL",
+							"nullable": false,
+							"name": "FLOAT",
+							"types": null,
+							"elementType": null
+						},
+						"value": null,
+						"static": false,
+						"hide": false,
+						"_props": {
+							"_typeName": "weather_record",
+							"_uuid": "weather_record:bmp180_pressure",
+							"_isSelected": false
+						}
+					},
+					{
+						"name": "bmp180_altitude",
+						"title": "",
+						"type": {
+							"encoding": "DECIMAL",
+							"nullable": false,
+							"name": "FLOAT",
+							"types": null,
+							"elementType": null
+						},
+						"value": null,
+						"static": false,
+						"hide": false,
+						"_props": {
+							"_typeName": "weather_record",
+							"_uuid": "weather_record:bmp180_altitude",
+							"_isSelected": false
+						}
+					},
+					{
+						"name": "mem_free",
+						"title": "",
+						"type": {
+							"encoding": "INT32",
+							"nullable": false,
+							"name": "INTEGER",
+							"types": null,
+							"elementType": null
+						},
+						"value": null,
+						"static": false,
+						"hide": false,
+						"_props": {
+							"_typeName": "weather_record",
+							"_uuid": "weather_record:mem_free",
+							"_isSelected": false
+						}
+					},
+					{
+						"name": "mem_used",
+						"title": "",
+						"type": {
+							"encoding": "INT32",
+							"nullable": false,
+							"name": "INTEGER",
+							"types": null,
+							"elementType": null
+						},
+						"value": null,
+						"static": false,
+						"hide": false,
+						"_props": {
+							"_typeName": "weather_record",
+							"_uuid": "weather_record:mem_used",
+							"_isSelected": false
+						}
+					}
+				],
+				"parent": null,
+				"isEnum": false,
+				"isAbstract": false,
+				"_props": {
+					"_uuid": "weather_record",
+					"_isUsed": true,
+					"_hierarchy": [
+						"Types",
+						"weather_record"
+					],
+					"_isVisible": true,
+					"_isSelected": true,
+					"_selectedFieldUuid": "weather_record:am2320_temp"
+				}
+			}
+		],
+		"enums": []
+	},
+	"formState": {
+		"hasAnyError": false,
+		"formChanged": [],
+		"typesHasChanges": [],
+		"lastField": "weather_record:weather_record:am2320_temp",
+		"hasError": {
+			"weather_record:weather_record:am2320_temp": false
+		},
+		"touched": [
+			":"
+		],
+		"originalFormState": {
+			"weather_record:weather_record:am2320_temp": {
+				"name": "am2320_temp",
+				"static": false,
+				"value": null,
+				"title": "",
+				"type": {
+					"name": "FLOAT",
+					"encoding": "DECIMAL",
+					"nullable": false,
+					"types": null,
+					"elementType": {
+						"name": null,
+						"encoding": null,
+						"nullable": null,
+						"types": null
+					}
+				}
+			}
+		},
+		"isTypeFieldsChanged": [],
+		"originalFields": {
+			"weather_record": "[\"weather_record:am2320_temp\",\"weather_record:am2320_humidity\",\"weather_record:bmp180_temp\",\"weather_record:bmp180_pressure\",\"weather_record:bmp180_altitude\",\"weather_record:mem_free\",\"weather_record:mem_used\"]"
+		}
+	}
+}
